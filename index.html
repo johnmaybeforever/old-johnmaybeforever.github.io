@@ -1,0 +1,11 @@
+---
+title: John Home
+layout: default
+---
+<h1>Latest Posts</h1>
+<ul>
+    {% for post in site.posts %}
+        <a class="btn btn-default btn-block btn-lg truncate" href="{{ post.url }}">{{ post.title }}: {{ post.excerpt | strip_html  }}</a>
+    {% endfor %}
+  </ul>
+<!-- <p>last updated: {{ page.date | date_to_string }}</p> -->

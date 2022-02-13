@@ -1,0 +1,8 @@
+bundle exec jekyll serve --port 4051
+
+pre:req:
+gem install jekyll bundler
+bundle install
+
+remove gemfile.lock?
+bundle add webrick

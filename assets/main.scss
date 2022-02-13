@@ -1,0 +1,12 @@
+---
+---
+@import "minima";
+@import 'bootstrap/css/bootstrap';
+#current {
+    color: green;
+}
+button.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
