@@ -280,6 +280,9 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (~> 223)
+  jekyll-feed
+  jekyll-seo-tag
+  jekyll-sitemap
   minima
   webrick (~> 1.7)
 

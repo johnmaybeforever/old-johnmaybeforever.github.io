@@ -2,5 +2,5 @@ domain: johnmaybeforever.github.io       # if you want to force HTTPS, specify t
 url: https://johnmaybeforever.github.io 
 
 theme: minima
-# sass:
-#   style: compressed
+sass:
+  sass_dir: _sass
