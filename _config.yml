@@ -1,3 +1,6 @@
+domain: johnmaybeforever.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://johnmaybeforever.github.io 
+
 theme: minima
 # sass:
 #   style: compressed

@@ -5,7 +5,7 @@ source "https://rubygems.org"
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 # gem "rails"
-gem "jekyll"
+# gem "jekyll"
 gem "minima"
 
 # group :jekyll_plugins do
@@ -14,5 +14,6 @@ gem "minima"
 #     gem 'jekyll-seo-tag'
 #   end
 
-# gem "github-pages", group: :jekyll_plugins
+gem "github-pages", "~> 223", group: :jekyll_plugins
+
 gem "webrick", "~> 1.7"
